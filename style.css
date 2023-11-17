@@ -77,18 +77,18 @@ p {
     height: 85%;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 968px) {
     .container1 {
         padding-left: 80px; padding-right: 20px; 
         margin-top: 90px;
     }
 
     .icons {
-        margin-top: 140px;
+        margin-top: 150px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 568px) {
     .container1 {
         margin-top: 35px;
         text-align: center;
@@ -105,5 +105,34 @@ p {
 
     .section__1 {
         margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 568px) and (max-width: 968px) {
+    .container1 {
+        margin-top: 20px;
+        text-align: center;
+        gap: 7px !important;
+        padding-left: 20px; padding-right: 10px;
+    }
+
+    .mobile_h1 {
+        font-size: 40px;
+    }
+
+    .icons {
+        margin-top: 40px;
+    }
+
+    .section__1 {
+        margin-bottom: 30px;
+    }
+
+    .image {
+        height: 98%;
+    }
+
+    .button {
+        width: 50%;
     }
 }
