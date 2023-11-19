@@ -74,18 +74,23 @@ p {
 }
 
 .image {
-    height: 85%;
+    height: 100%;
 }
+
+.icons {
+    height: 100%;
+}
+
 
 @media screen and (min-width: 968px) {
     .container1 {
         padding-left: 80px; padding-right: 20px; 
         margin-top: 90px;
     }
-
+/*
     .icons {
         margin-top: 150px;
-    }
+    } */
 }
 
 @media screen and (max-width: 568px) {
@@ -98,10 +103,10 @@ p {
     .mobile_h1 {
         font-size: 40px;
     }
-
+/*
     .icons {
         margin-top: 30px;
-    }
+    } */
 
     .section__1 {
         margin-bottom: 30px;
@@ -119,10 +124,10 @@ p {
     .mobile_h1 {
         font-size: 40px;
     }
-
+/*
     .icons {
         margin-top: 40px;
-    }
+    } */
 
     .section__1 {
         margin-bottom: 30px;
