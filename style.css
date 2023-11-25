@@ -41,14 +41,25 @@ body {
 }
 
 .register {
+    background-color: var(--clr-neutral-Almost-Black);
+    color: white;
     border: solid 1.3px black;
     border-radius: 8px;
     padding: 5px 15px; padding-top: 7px !important;
 }
 
 .register:hover {
-    background-color: black;
+    background-color: rgba(19, 18, 18, 0.815);
+    border: solid 1.3px rgba(19, 18, 18, 0.815);
     color: white;
+}
+
+.btn-dark {
+    background-color: var(--clr-neutral-Almost-Black)!important;
+}
+
+.btn-dark:hover {
+    background-color: rgba(19, 18, 18, 0.815)!important;
 }
 
 .container1 {
